@@ -89,7 +89,13 @@
             <input type="file" name="foto" id="foto" accept="image/*">
 
             <button type="submit">Enviar Reclamação</button>
-        </form>
+    </form>
+    <!-- Botão para voltar ao Welcome -->
+        <a href="{{ url('/') }}" class="mt-4 ml-4 inline-block bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600">
+        Voltar para o Início
+        </a>
     </div>
+    
+        
 </body>
 </html>
